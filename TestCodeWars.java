@@ -6,13 +6,10 @@ public class TestCodeWars {
     public static void main(String[] args) {
         int n =1234;
         int length = String.valueOf(n).length();
-        String number = String.valueOf(n);
 
+        String number = String.valueOf(n);
         String reverse = new StringBuilder(new String(number)).reverse().toString();
         char[] charReverseArray = reverse.toCharArray();
-
-        String raw = "1233983543587325318";
-        char[] c = raw.toCharArray();
         int[] reverseIntArray = new int[length];
 
         for (int i = 0; i < length; i++) {
